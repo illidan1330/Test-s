@@ -59,7 +59,4 @@ Click All Elements In Block
         Close Window
         Switch Window    MAIN
     END
-# Run Keyword And Continue On Failure    Wait Until Element Is Visible    locator=//*[text()="${element_name}"]
-# //h1[@class="js-feed-post-title t-feed__post-popup__title t-title t-title_xxs"]
-# //html/body//text()[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'термин')]
-# /html/body//*[text()="$element_name"]
+
