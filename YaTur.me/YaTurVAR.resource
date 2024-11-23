@@ -4,8 +4,8 @@ Library    SeleniumLibrary    # Подключаем библиотеку Seleni
 
 
 *** Variables ***
-${SITE_URL}            https://yatur.me/    # URL который открыть
-${BROWSER}             edge    # Браузер в котором открыть страницу и проводить тест
-${ALL_REGION}    //div[@class="popup-list-header__opener-toggle"]    # Xpath кнопки показать все регионы
-${REGIONS}    //li[@class="card-region__item"]    # Xpath на все карточки регионов
-${SHOW_MORE}    //div[@class="area__popup-text-opener"]    # Кнопка "Полное описание" на странице
+${SITE_URL}            https://yatur.me/
+${BROWSER}             edge
+${ALL_REGION}    //div[@class="popup-list-header__opener-toggle"]
+${REGIONS}    //li[@class="card-region__item"]
+${SHOW_MORE}    //div[@class="area__popup-text-opener"]
